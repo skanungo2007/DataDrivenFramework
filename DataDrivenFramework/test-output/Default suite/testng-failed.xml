@@ -5,7 +5,7 @@
     <classes>
       <class name="org.automation.testcase.TC01_StaticDataProvider">
         <methods>
-          <include name="validateLogin" invocation-numbers="0"/>
+          <include name="validateLogin" invocation-numbers="1"/>
           <include name="setBrowser"/>
           <include name="closeBrowser"/>
         </methods>
