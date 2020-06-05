@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-05T16:43:04Z" name="Default suite" finished-at="2020-06-05T16:44:19Z" duration-ms="74862">
+  <suite started-at="2020-06-05T17:08:55Z" name="Default suite" finished-at="2020-06-05T17:10:07Z" duration-ms="71568">
     <groups>
     </groups>
-    <test started-at="2020-06-05T16:43:04Z" name="Default test" finished-at="2020-06-05T16:44:19Z" duration-ms="74862">
+    <test started-at="2020-06-05T17:08:55Z" name="Default test" finished-at="2020-06-05T17:10:07Z" duration-ms="71568">
       <class name="org.automation.testcase.TC01_StaticDataProvider">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:04Z" name="setBrowser" finished-at="2020-06-05T16:43:18Z" duration-ms="13618" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:08:55Z" name="setBrowser" finished-at="2020-06-05T17:09:07Z" duration-ms="11904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:18Z" name="validateLogin" data-provider="static" finished-at="2020-06-05T16:43:23Z" duration-ms="5293" status="FAIL">
+        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:07Z" name="validateLogin" data-provider="static" finished-at="2020-06-05T17:09:12Z" duration-ms="4886" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,6 +24,30 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:12Z" name="closeBrowser" finished-at="2020-06-05T17:09:17Z" duration-ms="4740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:17Z" name="setBrowser" finished-at="2020-06-05T17:09:35Z" duration-ms="18021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:35Z" name="validateLogin" data-provider="static" finished-at="2020-06-05T17:09:40Z" duration-ms="5357" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #loginbutton
@@ -31,8 +55,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SUBHADEEPLAPTOP', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14800, moz:profile: C:\Users\skanu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e92767-e8f2-42ba-8c1d-bf558249252a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8716, moz:profile: C:\Users\skanu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d4f71438-8e3f-4398-ad1e-86d9e776a58c
 *** Element info: {Using=id, value=loginbutton}]]>
             </message>
             <full-stacktrace>
@@ -41,8 +65,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SUBHADEEPLAPTOP', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14800, moz:profile: C:\Users\skanu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b7e92767-e8f2-42ba-8c1d-bf558249252a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8716, moz:profile: C:\Users\skanu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d4f71438-8e3f-4398-ad1e-86d9e776a58c
 *** Element info: {Using=id, value=loginbutton}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -92,39 +116,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:23Z" name="closeBrowser" finished-at="2020-06-05T16:43:29Z" duration-ms="5763" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:40Z" name="closeBrowser" finished-at="2020-06-05T17:09:46Z" duration-ms="5955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:29Z" name="setBrowser" finished-at="2020-06-05T16:43:46Z" duration-ms="16416" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:46Z" name="setBrowser" finished-at="2020-06-05T17:09:57Z" duration-ms="11283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:46Z" name="validateLogin" data-provider="static" finished-at="2020-06-05T16:43:51Z" duration-ms="5564" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[uname2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:51Z" name="closeBrowser" finished-at="2020-06-05T16:43:57Z" duration-ms="5478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:43:57Z" name="setBrowser" finished-at="2020-06-05T16:44:10Z" duration-ms="13020" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:44:10Z" name="validateLogin" data-provider="static" finished-at="2020-06-05T16:44:14Z" duration-ms="4429" status="PASS">
+        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:09:57Z" name="validateLogin" data-provider="static" finished-at="2020-06-05T17:10:02Z" duration-ms="4556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,7 +140,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T16:44:14Z" name="closeBrowser" finished-at="2020-06-05T16:44:19Z" duration-ms="5206" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testcase.TC01_StaticDataProvider@a4102b8]" started-at="2020-06-05T17:10:02Z" name="closeBrowser" finished-at="2020-06-05T17:10:07Z" duration-ms="4817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
